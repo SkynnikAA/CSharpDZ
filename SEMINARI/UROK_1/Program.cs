@@ -1,4 +1,4 @@
-﻿Cnsole.Clear();
+﻿Console.Clear();
 int x = 6;
 string s = "это строка";
 
