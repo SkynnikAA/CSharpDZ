@@ -1,23 +1,23 @@
 ﻿
 // // Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
-int APowB(int a, int b)
-{
-    int res = 1;
-    for (int i = 0; i < b; i++)
-        res *= a;
-    return res;
-}
+// int APowB(int a, int b)
+// {
+//     int res = 1;
+//     for (int i = 0; i < b; i++)
+//         res *= a;
+//     return res;
+// }
 
-void CallAPowB() // вспомогательный метод с запросом данных и выводом в терминал.
-{
-    Console.WriteLine("Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.");
-    Console.Write("Введите первое число >: ");
-    int numberA = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Введите второе число >: ");
-    int numberB = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine($"{numberA}^{numberB} = {APowB(numberA, numberB)}");
-}
-CallAPowB();
+// void CallAPowB() // вспомогательный метод с запросом данных и выводом в терминал.
+// {
+//     Console.WriteLine("Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.");
+//     Console.Write("Введите первое число >: ");
+//     int numberA = Convert.ToInt32(Console.ReadLine());
+//     Console.Write("Введите второе число >: ");
+//     int numberB = Convert.ToInt32(Console.ReadLine());
+//     Console.WriteLine($"{numberA}^{numberB} = {APowB(numberA, numberB)}");
+// }
+// CallAPowB();
 
 // // // Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 // int SumOfDigits(int num) // принимает целое число, возвращает сумму цифр введенного числа
